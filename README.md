@@ -1,23 +1,17 @@
 # About #
-This rep is about c libs for user program, use it as dynamic library.  
-All librarys list below is for UNIX like system, especially for linux.
-# Library List #
-## liblog ##
-Log module, you can use it for writing log for your programe.
-## libbm ##
-A string search algorithm named by BM, normally its faster than KMP(another string search algorithm).
-## libthread ##
-Thread APIs for create new thread for program.
-## libdaemon ##
-Obviously, the purpose of the lib is to make a program run as a daemon.
-## liblist ##
-Double list, code mainly from linux kernel.
-## libudp ##
-For socket communication using UDP protocol.
-## libthreadpool ##
-Thread pool.
-## libconfig ##
-config file read library.
+A shell ipmsg program based on curses, simple but meaningful.
+
+# Library Used #
+The code of the library is from my rep [clib](https://github.com/isayme/clib "https://github.com/isayme/clib"),  but I just used libudp.
+
+# Screenshot #
+
+## the screenshot of shell:  ##
+![shell](https://raw.github.com/isayme/cipmsg/master/bin/cipmsg_1.png)  
+
+## the screenshot of ipmsg:  ##
+![ipmsg](https://raw.github.com/isayme/cipmsg/master/bin/cipmsg_2.png)  
+
 # Contact #
 Email : isaymeorg [at] gmail [dot] com  
 Blog  : [www.isayme.org](www.isayme.org "www.isayme.org") [Chinese Simplified]
