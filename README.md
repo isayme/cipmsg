@@ -4,6 +4,12 @@ A shell ipmsg program based on curses, simple but meaningful.
 # Library Used #
 The code of the library is from my rep [clib](https://github.com/isayme/clib "https://github.com/isayme/clib"),  but I just used libudp.
 
+# Build #
+Just use command `make` will be ok.  
+If you got a error like `cannot find -lcurses`, congratulations, you should try to edit the file `makefile`,
+find and change the `-lcurses` to `-lncurses`.  
+If still not ok, I'm sorry, maybe your system have no curses installed~
+
 # Screenshot #
 
 ## the screenshot of shell:  ##
